@@ -1,0 +1,10 @@
+rang=20
+print("primes number less than 20 are:")
+for num in range(rang):
+    if num>1:
+        for i in range(2,num):
+            if(num%i)==0:
+                break
+
+        else:
+            print(num)
