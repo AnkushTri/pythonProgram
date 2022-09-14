@@ -1,0 +1,2 @@
+import task14_fibonacci
+task14_fibonacci.fibonacci(10)
